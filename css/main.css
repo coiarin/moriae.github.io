@@ -1,0 +1,71 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	/*background-image: linear-gradient(135deg, #fbfcdb, #e9defa);*/
+	background: #edecea;
+	color:#424242;
+}
+/** Header Navigation**/
+header .container {
+	margin: 0;
+}
+
+header .navbar-brand {
+	font-family: 'Cabin', sans-serif ;
+	font-size: 2rem;
+	color: #424242;
+}
+
+header .nav-link{
+	color:#424242;
+	font-family: 'Raleway', sans-serif ;
+	font-size:0.7rem;
+}
+
+header .nav-link:hover {
+	color:black;
+}
+
+header #active a {
+	font-style: solid;
+	border-bottom: 2px solid black;
+	color:black;
+}
+
+header .dropdown-menu {
+	background-color: transparent;
+	border: none;
+	min-width: 5rem;
+}
+
+
+header .dropdown-item:hover {
+	background-color: transparent;
+	color: grey;
+}
+
+
+#account {
+	justify-content: end;
+}
+/*account drop menu -> right side of the viewport*/
+
+/*sign-in page*/
+h1 {
+	font-family:'Raleway', sans-serif;
+	font-size:2rem;
+
+}
+
+a:hover {
+	color: black;
+}
+
+.btn {
+	color: #424242;
+	border-color: #424242;
+}
+
+
